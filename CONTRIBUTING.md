@@ -1,4 +1,4 @@
-# Contributing to KeyForge
+# Contributing to Taplytics
 
 Thank you for your interest in contributing! This document explains how to get involved.
 

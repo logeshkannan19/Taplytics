@@ -1,0 +1,51 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2.5rem;
+  width: 100%;
+}
+
+.logo {
+  font-family: var(--font-mono);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--amber);
+  letter-spacing: 0.05em;
+}
+
+.logoMuted {
+  color: var(--muted);
+  font-weight: 300;
+}
+
+.diffTabs {
+  display: flex;
+  gap: 4px;
+  background: var(--bg3);
+  border-radius: var(--radius-md);
+  padding: 4px;
+  border: 1px solid var(--border);
+}
+
+.diffBtn {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  padding: 5px 12px;
+  border-radius: var(--radius-sm);
+  border: none;
+  background: none;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  transition: all var(--transition);
+}
+
+.diffBtn:hover {
+  color: var(--text);
+}
+
+.diffBtn.active {
+  background: var(--amber-glow);
+  color: var(--amber);
+}

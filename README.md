@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://img.shields.io/badge/KeyForge-Typing%20Speed%20Test-EF9F27?style=for-the-badge&logo=keyboard&logoColor=white" alt="KeyForge" />
+<img src="https://img.shields.io/badge/Taplytics-Typing%20Speed%20Test-EF9F27?style=for-the-badge&logo=keyboard&logoColor=white" alt="Taplytics" />
 
 <br /><br />
 
@@ -43,6 +43,59 @@ Taplytics is a dark-themed, performance-focused typing speed test built entirely
 | 🏆 **Leaderboard** | Contextual score comparison |
 | ⌨️ **Tab to restart** | Instant restart without touching the mouse |
 | 📱 **Responsive** | Mobile and desktop friendly |
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- **Node.js** ≥ 16.x
+- **npm** ≥ 8.x
+
+### Installation
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/logeshkannan19/Taplytics.git
+cd Taplytics
+
+# 2. Install dependencies
+npm install
+
+# 3. Start the development server
+npm start
+```
+
+Open [http://localhost:3000](http://localhost:3000) — hot reloads on every save.
+
+### Available Scripts
+
+| Command | Description |
+|---|---|
+| `npm start` | Start dev server on port 3000 |
+| `npm run build` | Production build into `/build` |
+| `npm test` | Run test suite |
+| `npm run lint` | Lint with ESLint |
+
+---
+
+## 🌐 Deployment
+
+### Vercel (recommended)
+```bash
+npx vercel
+```
+
+### Netlify
+Drag the `/build` folder to [app.netlify.com/drop](https://app.netlify.com/drop).
+
+### GitHub Pages
+```bash
+# Add to package.json: "homepage": "https://logeshkannan19.github.io/Taplytics"
+npm run build
+npx gh-pages -d build
+```
 
 ---
 

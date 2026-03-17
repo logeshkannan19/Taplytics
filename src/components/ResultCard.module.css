@@ -1,0 +1,211 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(13, 13, 15, 0.92);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s;
+  padding: 1rem;
+}
+
+.overlay.visible {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.card {
+  background: var(--bg2);
+  border: 1px solid var(--amber-dim);
+  border-radius: var(--radius-xl);
+  padding: 2.5rem;
+  width: 100%;
+  max-width: 480px;
+  text-align: center;
+  transform: translateY(20px);
+  transition: transform 0.4s;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.overlay.visible .card {
+  transform: translateY(0);
+}
+
+.testComplete {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--amber);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.heroWpm {
+  font-family: var(--font-mono);
+  font-size: 5rem;
+  font-weight: 700;
+  color: var(--amber);
+  line-height: 1;
+}
+
+.heroLabel {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  color: var(--muted);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+  margin-top: 4px;
+}
+
+/* ── Stats grid ── */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-bottom: 1.5rem;
+}
+
+.statBox {
+  background: var(--bg3);
+  border-radius: var(--radius-sm);
+  padding: 12px;
+}
+
+.statVal {
+  font-family: var(--font-mono);
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.statLbl {
+  font-size: 0.65rem;
+  color: var(--muted);
+  margin-top: 2px;
+}
+
+/* ── Section ── */
+.section {
+  border-top: 1px solid var(--border);
+  padding-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  text-align: left;
+}
+
+.tabs {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 0.75rem;
+}
+
+.tab {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  border-radius: var(--radius-sm);
+  border: none;
+  background: none;
+  color: var(--muted);
+  transition: all var(--transition);
+}
+
+.tab:hover { color: var(--text); }
+
+.tabActive {
+  background: var(--bg4);
+  color: var(--text);
+}
+
+.empty {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--muted);
+  padding: 6px 0;
+}
+
+/* ── History ── */
+.historyList {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-height: 140px;
+  overflow-y: auto;
+}
+
+.historyItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--muted);
+  padding: 6px 10px;
+  background: var(--bg3);
+  border-radius: var(--radius-sm);
+}
+
+.historyTime { color: var(--muted2); font-size: 0.65rem; }
+.historyDiff { text-transform: uppercase; font-size: 0.65rem; }
+.historyWpm  { color: var(--amber); font-weight: 700; }
+
+/* ── Leaderboard ── */
+.lbList {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.lbItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 10px;
+  border-radius: var(--radius-sm);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+}
+
+.lbTop { background: rgba(239,159,39,0.08); }
+
+.lbUser {
+  background: rgba(93,202,165,0.08);
+  margin-top: 4px;
+  border-top: 1px solid var(--border);
+}
+
+.lbRank { color: var(--muted); width: 20px; flex-shrink: 0; }
+.lbName { flex: 1; color: var(--text); }
+.lbAcc  { color: var(--muted); font-size: 0.65rem; }
+.lbWpm  { color: var(--amber); font-weight: 700; }
+
+/* ── Restart button ── */
+.restartBtn {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  color: var(--muted);
+  padding: 12px 0;
+  width: 100%;
+  border-radius: var(--radius-sm);
+  transition: all var(--transition);
+}
+
+.restartBtn:hover {
+  border-color: var(--amber-dim);
+  color: var(--amber);
+}
+
+@media (max-width: 480px) {
+  .heroWpm { font-size: 3.5rem; }
+  .card { padding: 1.75rem 1.25rem; }
+}

@@ -1,0 +1,59 @@
+/* ─── Reset & Base ─────────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg:           #0d0d0f;
+  --bg2:          #141416;
+  --bg3:          #1a1a1e;
+  --bg4:          #222228;
+  --amber:        #EF9F27;
+  --amber-dim:    #BA7517;
+  --amber-faint:  rgba(239, 159, 39, 0.08);
+  --amber-glow:   rgba(239, 159, 39, 0.15);
+  --text:         #e8e4d9;
+  --muted:        #6b6860;
+  --muted2:       #4a4845;
+  --correct:      #5DCAA5;
+  --wrong:        #E24B4A;
+  --cursor:       #EF9F27;
+  --border:       rgba(255, 255, 255, 0.07);
+  --radius-sm:    6px;
+  --radius-md:    10px;
+  --radius-lg:    14px;
+  --radius-xl:    18px;
+  --font-mono:    'JetBrains Mono', monospace;
+  --font-sans:    'Space Grotesk', sans-serif;
+  --transition:   0.2s ease;
+}
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  min-height: 100vh;
+}
+
+button {
+  cursor: pointer;
+  font-family: var(--font-sans);
+}
+
+input, textarea {
+  font-family: var(--font-mono);
+}
+
+/* ─── Scrollbar ─────────────────────────────────────────────── */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: var(--bg2); }
+::-webkit-scrollbar-thumb { background: var(--muted2); border-radius: 2px; }
+::-webkit-scrollbar-thumb:hover { background: var(--muted); }

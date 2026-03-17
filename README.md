@@ -46,47 +46,6 @@ KeyForge is a dark-themed, performance-focused typing speed test built entirely 
 
 ---
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-- **Node.js** ≥ 16.x
-- **npm** ≥ 8.x
-
-### Installation
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/logeshkannan19/Taplytics.git
-cd Taplytics
-
-# 2. Install dependencies
-npm install
-
-# 3. Start the development server
-npm start
-```
-
-Open [http://localhost:3000](http://localhost:3000) — hot reloads on every save.
-
-### Available Scripts
-
-| Command | Description |
-|---|---|
-| `npm start` | Start dev server on port 3000 |
-| `npm run build` | Production build into `/build` |
-| `npm test` | Run test suite |
-| `npm run lint` | Lint with ESLint |
-
----
-
-## 🌐 Deployment
-
-### Vercel (recommended)
-```bash
-npx vercel
-```
-
 ## 🏗️ Architecture
 
 ```

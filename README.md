@@ -87,18 +87,6 @@ Open [http://localhost:3000](http://localhost:3000) — hot reloads on every sav
 npx vercel
 ```
 
-### Netlify
-Drag the `/build` folder to [app.netlify.com/drop](https://app.netlify.com/drop).
-
-### GitHub Pages
-```bash
-# Add to package.json: "homepage": "https://logeshkannan19.github.io/Taplytics"
-npm run build
-npx gh-pages -d build
-```
-
----
-
 ## 🏗️ Architecture
 
 ```

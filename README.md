@@ -1,19 +1,9 @@
 <div align="center">
 
-<img src="https://img.shields.io/badge/Taplytics-Typing%20Speed%20Test-EF9F27?style=for-the-badge&logo=keyboard&logoColor=white" alt="Taplytics" />
+# Taplytics ⌨️
 
-<br /><br />
-
-[![React](https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react)](https://reactjs.org/)
-[![CSS Modules](https://img.shields.io/badge/CSS-Modules-blue?style=flat-square&logo=css3)](https://github.com/css-modules/css-modules)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md)
-[![CI](https://img.shields.io/github/actions/workflow/status/logeshkannan19/Taplytics/ci.yml?style=flat-square&label=CI)](https://github.com/logeshkannan19/Taplytics/actions)
-
-<br />
-
-**A professional, portfolio-ready typing speed test.**
-Real-time WPM · Live speed graph · Difficulty levels · Run history
+**Performance-focused typing speed test built with React.**
+Real-time WPM · Live speed graph · Local run history
 
 <br />
 

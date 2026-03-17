@@ -25,7 +25,7 @@ Real-time WPM · Live speed graph · Difficulty levels · Run history
 
 ## 🎯 Overview
 
-KeyForge is a dark-themed, performance-focused typing speed test built entirely with React and CSS Modules — no UI libraries, no unnecessary dependencies. It measures your Words Per Minute (WPM) and accuracy in real time, plots your speed as a live canvas graph, and persists your run history locally.
+Taplytics is a dark-themed, performance-focused typing speed test built entirely with React and CSS Modules — no UI libraries, no unnecessary dependencies. It measures your Words Per Minute (WPM) and accuracy in real time, plots your speed as a live canvas graph, and persists your run history locally.
 
 ---
 

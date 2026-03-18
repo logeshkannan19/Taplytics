@@ -102,7 +102,7 @@ export function useTypingTest(difficulty = 'easy', soundOn = false) {
       setWpmHistory(prev => [...prev, currentWpm]);
       setPeakWpm(prev => Math.max(prev, currentWpm));
     }, 1000);
-  }, []); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [calculateWPM]);
 
   // correctTyped ref for the graph timer
   const correctTypedRef = useRef(0);

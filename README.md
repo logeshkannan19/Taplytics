@@ -5,7 +5,7 @@
 **Performance-focused typing speed test built with React.**
 Real-time WPM · Live speed graph · Local run history
 
-[![Demo](https://img.shields.io/badge/Demo-Live-brightgreen)](https://taplytics-hur6hry5o-logeshkannan19s-projects.vercel.app)
+[![Demo](https://img.shields.io/badge/Demo-Live-brightgreen)](https://taplytics-gi87flja6-logeshkannan19s-projects.vercel.app)
 
 <br />
 
